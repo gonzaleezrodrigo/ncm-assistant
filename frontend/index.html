@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asistente NCM - Clasificacion Arancelaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <aside class="sidebar" aria-label="Panel de control">
+      <div class="brand">
+        <div class="brand-mark">NCM</div>
+        <div>
+          <p class="eyebrow">SASO 1C26</p>
+          <h1>Asistente de Clasificacion Arancelaria</h1>
+        </div>
+      </div>
+
+      <nav class="status-panel" aria-label="Estado del sistema">
+        <div class="status-row">
+          <span class="status-dot"></span>
+          <span>Base local activa</span>
+        </div>
+        <div class="status-row muted">
+          <span class="status-dot amber"></span>
+          <span>IA opcional por API key</span>
+        </div>
+      </nav>
+
+      <section class="quick-panel">
+        <p class="panel-title">Casos infalibles</p>
+        <button data-case="Yerba mate molida 500g">Yerba mate</button>
+        <button data-case="Aceite de soja refinado 20L">Aceite de soja</button>
+        <button data-case="Cuero wet-blue vacuno">Cuero wet-blue</button>
+        <button data-case="Software contable en pendrive">Software USB</button>
+        <button data-case="Cosechadora usada 2018">Cosechadora</button>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Dashboard aduanero</p>
+          <h2>Consulta tecnica NCM</h2>
+        </div>
+        <div class="topbar-badge" id="healthBadge">Verificando sistema...</div>
+      </header>
+
+      <section class="query-panel">
+        <label for="productInput">Descripcion del producto</label>
+        <textarea id="productInput" rows="5" placeholder="Ej: vino tinto malbec en botella de 750 ml, termo de acero inoxidable, remera de algodon..."></textarea>
+        <div class="actions">
+          <button class="ghost" id="clearButton" type="button">Limpiar</button>
+          <button class="primary" id="classifyButton" type="button">
+            <span class="search-icon" aria-hidden="true"></span>
+            Clasificar producto
+          </button>
+        </div>
+      </section>
+
+      <section class="loader" id="loader" aria-live="polite">
+        <div class="spinner"></div>
+        <span>Analizando naturaleza, composicion, uso y reglas interpretativas...</span>
+      </section>
+
+      <section class="result-panel hidden" id="resultPanel" aria-live="polite">
+        <div class="result-head">
+          <div>
+            <p class="eyebrow">Resultado de clasificacion</p>
+            <h3 id="resultTitle">Posicion sugerida</h3>
+          </div>
+          <span class="confidence" id="confidenceBadge">-</span>
+        </div>
+
+        <div class="ncm-card">
+          <div class="ncm-code" id="ncmCode">-</div>
+          <div>
+            <p class="ncm-label">Descripcion oficial / orientativa</p>
+            <p class="ncm-description" id="ncmDescription">-</p>
+          </div>
+        </div>
+
+        <div class="detail-grid">
+          <article>
+            <p class="block-label">Criterio aplicado</p>
+            <p id="criteriaText">-</p>
+          </article>
+          <article>
+            <p class="block-label">RGI aplicadas</p>
+            <p id="rgiText">-</p>
+          </article>
+          <article>
+            <p class="block-label">Informacion a confirmar</p>
+            <ul id="questionsList"></ul>
+          </article>
+          <article>
+            <p class="block-label">Alternativas cercanas</p>
+            <ul id="alternativesList"></ul>
+          </article>
+        </div>
+
+        <div class="warning-box">
+          <p class="block-label">Advertencias legales</p>
+          <ul id="warningsList"></ul>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

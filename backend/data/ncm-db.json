@@ -1,0 +1,392 @@
+[
+  {
+    "ncm": "0903.00.90",
+    "descripcionOficial": "Yerba mate. Las demas.",
+    "capitulo": "Capitulo 09 - Cafe, te, yerba mate y especias",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["yerba mate", "yerba", "mate", "molida", "con palo", "sin palo", "500g", "500 g", "infusion"],
+    "criterio": "La mercaderia se clasifica por el texto de la partida 09.03 y por la apertura regional aplicable a las demas presentaciones de yerba mate.",
+    "advertencias": ["Si contiene hierbas, saborizantes u otras preparaciones mezcladas, puede corresponder analizar el capitulo 21."],
+    "preguntas": ["Confirmar si es yerba mate pura o mezcla compuesta."]
+  },
+  {
+    "ncm": "1507.90.11",
+    "descripcionOficial": "Aceite de soja y sus fracciones, incluso refinado, pero sin modificar quimicamente. Los demas. Refinado.",
+    "capitulo": "Capitulo 15 - Grasas y aceites animales, vegetales o microbianos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["aceite de soja", "soja", "refinado", "aceite refinado", "20l", "20 litros", "bidon", "alimentario"],
+    "criterio": "La descripcion identifica aceite de soja refinado, sin modificacion quimica, por lo que se aplica el texto de la partida 15.07 y la apertura para los demas aceites refinados.",
+    "advertencias": ["Si el aceite esta en bruto, hidrogenado o modificado quimicamente, corresponde revisar otra apertura o la partida 15.16."],
+    "preguntas": ["Confirmar si es refinado y si no fue hidrogenado ni interesterificado."]
+  },
+  {
+    "ncm": "4104.11.10",
+    "descripcionOficial": "Cueros y pieles curtidos o crust, de bovino, depilados. En estado humedo, plena flor sin dividir; wet-blue.",
+    "capitulo": "Capitulo 41 - Pieles y cueros",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["cuero", "wet-blue", "wet blue", "vacuno", "bovino", "curtido", "cromo", "estado humedo", "plena flor", "sin dividir"],
+    "criterio": "La condicion wet-blue indica cuero bovino curtido al cromo en estado humedo. Se aplica la partida 41.04 y la subpartida correspondiente a cueros en estado humedo.",
+    "advertencias": ["Si el cuero esta seco, dividido, acabado, tenido, grabado o con preparacion posterior, debe revisarse otra subpartida."],
+    "preguntas": ["Confirmar si es plena flor sin dividir y si no tiene acabado posterior."]
+  },
+  {
+    "ncm": "8523.51.90",
+    "descripcionOficial": "Soportes semiconductores. Dispositivos de almacenamiento permanente de datos a base de semiconductores. Los demas.",
+    "capitulo": "Capitulo 85 - Maquinas y aparatos electricos",
+    "rgi": ["RGI 1", "RGI 3 b", "RGI 6"],
+    "keywords": ["software", "contable", "pendrive", "usb", "memoria usb", "flash", "soporte fisico", "licencia"],
+    "criterio": "Al presentarse en un pendrive, la clasificacion se orienta al soporte fisico semiconductor que contiene los datos, sin perjuicio del tratamiento de la licencia o valor del software.",
+    "advertencias": ["La descarga digital sin soporte fisico no constituye la misma mercaderia tangible. La valoracion puede requerir separar soporte, licencia y servicio."],
+    "preguntas": ["Confirmar si se importa un soporte fisico USB y como se factura la licencia."]
+  },
+  {
+    "ncm": "8433.51.00",
+    "descripcionOficial": "Maquinas y aparatos para cosechar o trillar. Cosechadoras-trilladoras.",
+    "capitulo": "Capitulo 84 - Reactores, calderas, maquinas y artefactos mecanicos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["cosechadora", "cosechadora trilladora", "trilladora", "cosechar", "agricola", "soja", "autopropulsada", "usada", "2018"],
+    "criterio": "La maquina se identifica como cosechadora-trilladora, clasificada por el texto de la partida 84.33 y su subpartida especifica.",
+    "advertencias": ["La condicion de usada puede activar requisitos administrativos, pero no cambia por si sola la partida arancelaria."],
+    "preguntas": ["Confirmar si es cosechadora-trilladora autopropulsada y no solo una parte o accesorio."]
+  },
+  {
+    "ncm": "8517.12.00",
+    "descripcionOficial": "Telefonos para redes celulares o para otras redes inalambricas.",
+    "capitulo": "Capitulo 85",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["celular", "smartphone", "telefono movil", "iphone", "samsung", "android", "red celular"],
+    "criterio": "El producto corresponde a telefonos para redes celulares.",
+    "advertencias": ["Verificar accesorios, kits comerciales y regulaciones de telecomunicaciones."],
+    "preguntas": ["Confirmar si es equipo completo o parte/repuesto."]
+  },
+  {
+    "ncm": "8471.30.00",
+    "descripcionOficial": "Maquinas automaticas para tratamiento o procesamiento de datos, portatiles, de peso inferior o igual a 10 kg.",
+    "capitulo": "Capitulo 84",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["notebook", "laptop", "computadora portatil", "netbook", "pc portatil", "tablet pc"],
+    "criterio": "Equipo portatil de procesamiento automatico de datos.",
+    "advertencias": ["Tablets, servidores o equipos incompletos pueden requerir analisis adicional."],
+    "preguntas": ["Confirmar peso, CPU, pantalla, teclado y configuracion."]
+  },
+  {
+    "ncm": "8415.10.00",
+    "descripcionOficial": "Acondicionadores de aire de ventana, pared, techo o suelo, formando un solo cuerpo o sistema split.",
+    "capitulo": "Capitulo 84",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["aire acondicionado", "split", "acondicionador", "frio calor", "unidad interior", "unidad exterior"],
+    "criterio": "Aparato de acondicionamiento de aire con equipo frigorifico.",
+    "advertencias": ["Verificar capacidad, gases refrigerantes y certificaciones tecnicas."],
+    "preguntas": ["Confirmar si es split completo, unidad separada o repuesto."]
+  },
+  {
+    "ncm": "8703.23.00",
+    "descripcionOficial": "Automoviles de turismo con motor de embolo alternativo, de encendido por chispa, de cilindrada superior a 1.500 cm3 e inferior o igual a 3.000 cm3.",
+    "capitulo": "Capitulo 87",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["auto", "automovil", "vehiculo", "nafta", "gasolina", "turismo", "sedan", "suv", "1600cc", "2000cc"],
+    "criterio": "Vehiculo automovil para transporte de personas, clasificado por tipo de motor y cilindrada.",
+    "advertencias": ["Cilindrada, tipo de combustible, condicion de usado y regimen automotor pueden modificar tratamiento."],
+    "preguntas": ["Confirmar cilindrada, combustible y cantidad de plazas."]
+  },
+  {
+    "ncm": "8704.21.00",
+    "descripcionOficial": "Vehiculos automoviles para transporte de mercancias, con motor diesel o semidiesel, de peso total con carga maxima inferior o igual a 5 t.",
+    "capitulo": "Capitulo 87",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["camioneta", "pickup", "pick up", "utilitario", "furgon", "diesel", "transporte de mercancias"],
+    "criterio": "Vehiculo destinado al transporte de mercancias, clasificado por motor y peso bruto.",
+    "advertencias": ["La configuracion de cabina, caja y peso bruto es determinante."],
+    "preguntas": ["Confirmar peso bruto total y tipo de motor."]
+  },
+  {
+    "ncm": "6109.10.00",
+    "descripcionOficial": "T-shirts y camisetas interiores, de punto, de algodon.",
+    "capitulo": "Capitulo 61",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["remera", "camiseta", "t shirt", "t-shirt", "algodon", "punto", "ropa"],
+    "criterio": "Prenda de vestir de punto de algodon.",
+    "advertencias": ["La composicion textil y si es de punto o tejido plano cambia la clasificacion."],
+    "preguntas": ["Confirmar composicion porcentual y tipo de tejido."]
+  },
+  {
+    "ncm": "6203.42.00",
+    "descripcionOficial": "Pantalones largos, pantalones con peto, pantalones cortos y shorts, para hombres o ninos, de algodon.",
+    "capitulo": "Capitulo 62",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["jean", "pantalon", "denim", "algodon", "hombre", "nino", "tejido plano"],
+    "criterio": "Prenda confeccionada de tejido plano de algodon.",
+    "advertencias": ["Genero, composicion y tipo de tejido deben confirmarse."],
+    "preguntas": ["Confirmar si es para hombre/nino o mujer/nina."]
+  },
+  {
+    "ncm": "6403.99.90",
+    "descripcionOficial": "Calzado con suela de caucho, plastico, cuero natural o regenerado y parte superior de cuero natural. Los demas.",
+    "capitulo": "Capitulo 64",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["zapato", "calzado", "zapatilla cuero", "cuero natural", "suela caucho", "suela plastico"],
+    "criterio": "Calzado clasificado por material de la parte superior y suela.",
+    "advertencias": ["El material predominante de la capellada y suela define la apertura."],
+    "preguntas": ["Confirmar material de suela, capellada y uso deportivo o no deportivo."]
+  },
+  {
+    "ncm": "9503.00.00",
+    "descripcionOficial": "Triciclos, patinetes, juguetes, modelos reducidos y rompecabezas.",
+    "capitulo": "Capitulo 95",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["juguete", "muneca", "rompecabezas", "autito", "bloques", "modelo reducido"],
+    "criterio": "Articulo destinado principalmente al entretenimiento infantil o recreativo.",
+    "advertencias": ["Puede requerir certificaciones de seguridad para juguetes."],
+    "preguntas": ["Confirmar edad de uso y si posee componentes electricos."]
+  },
+  {
+    "ncm": "9506.62.00",
+    "descripcionOficial": "Balones y pelotas inflables para deporte.",
+    "capitulo": "Capitulo 95 - Juguetes, juegos y articulos para recreo o deporte",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["pelota de futbol", "pelota futbol", "balon de futbol", "balon futbol", "pelota deportiva", "balon deportivo", "inflable", "deporte"],
+    "criterio": "El producto se identifica como pelota inflable destinada a la practica deportiva, clasificada por el texto de la partida 95.06 y la subpartida de balones y pelotas inflables.",
+    "advertencias": ["Si no es inflable, si es juguete no deportivo o si contiene componentes electronicos, debe revisarse la partida aplicable."],
+    "preguntas": ["Confirmar si es inflable y si esta destinada a practica deportiva."]
+  },
+  {
+    "ncm": "9506.61.00",
+    "descripcionOficial": "Pelotas de tenis.",
+    "capitulo": "Capitulo 95 - Juguetes, juegos y articulos para recreo o deporte",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["pelota de tenis", "pelotas tenis", "tennis ball", "tenis"],
+    "criterio": "Articulo deportivo especifico para tenis.",
+    "advertencias": ["Otras pelotas deportivas inflables o no inflables se clasifican en aperturas diferentes."],
+    "preguntas": ["Confirmar deporte y material."]
+  },
+  {
+    "ncm": "4202.92.00",
+    "descripcionOficial": "Bolsos, mochilas y continentes similares, con superficie exterior de hojas de plastico o materia textil.",
+    "capitulo": "Capitulo 42 - Manufacturas de cuero; articulos de viaje y bolsos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["mochila", "bolso", "materia textil", "poliester", "nylon", "cartera", "equipaje"],
+    "criterio": "Continente similar a bolso o mochila, clasificado segun superficie exterior predominante.",
+    "advertencias": ["Si la superficie exterior es cuero natural, plastico rigido u otro material, puede cambiar la apertura."],
+    "preguntas": ["Confirmar material de la superficie exterior."]
+  },
+  {
+    "ncm": "6911.10.00",
+    "descripcionOficial": "Articulos para el servicio de mesa o cocina, de porcelana.",
+    "capitulo": "Capitulo 69 - Productos ceramicos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["taza", "plato", "vajilla", "porcelana", "ceramica cocina", "servicio de mesa"],
+    "criterio": "Articulo ceramico para servicio de mesa o cocina.",
+    "advertencias": ["Si es de ceramica distinta de porcelana, vidrio, plastico o metal, cambia la clasificacion."],
+    "preguntas": ["Confirmar si es porcelana u otra ceramica."]
+  },
+  {
+    "ncm": "7323.93.00",
+    "descripcionOficial": "Articulos de uso domestico y sus partes, de acero inoxidable.",
+    "capitulo": "Capitulo 73 - Manufacturas de fundicion, hierro o acero",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["olla acero inoxidable", "sarten acero", "utensilio acero inoxidable", "cocina acero", "menaje acero"],
+    "criterio": "Articulo domestico de cocina de acero inoxidable.",
+    "advertencias": ["Si posee recubrimientos especiales, componentes electricos o es de aluminio, corresponde revisar otra partida."],
+    "preguntas": ["Confirmar material predominante y si tiene componente electrico."]
+  },
+  {
+    "ncm": "8518.30.00",
+    "descripcionOficial": "Auriculares, incluidos los de casco, incluso combinados con microfono.",
+    "capitulo": "Capitulo 85 - Maquinas y aparatos electricos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["auriculares", "headphones", "earbuds", "inalambricos", "bluetooth", "microfono", "audio"],
+    "criterio": "Aparato electroacustico de escucha individual, incluso con microfono.",
+    "advertencias": ["Parlantes, equipos de audio completos o partes se clasifican en aperturas distintas."],
+    "preguntas": ["Confirmar si son auriculares completos, con microfono o solo partes."]
+  },
+  {
+    "ncm": "8528.72.00",
+    "descripcionOficial": "Aparatos receptores de television, en colores.",
+    "capitulo": "Capitulo 85 - Maquinas y aparatos electricos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["televisor", "smart tv", "tv led", "television", "pantalla tv"],
+    "criterio": "Aparato receptor de television en colores.",
+    "advertencias": ["Monitores sin receptor de TV, pantallas industriales o proyectores se clasifican distinto."],
+    "preguntas": ["Confirmar si incorpora receptor de television."]
+  },
+  {
+    "ncm": "8418.10.00",
+    "descripcionOficial": "Combinaciones de refrigerador y congelador con puertas exteriores separadas.",
+    "capitulo": "Capitulo 84 - Reactores, calderas, maquinas y artefactos mecanicos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["heladera", "refrigerador", "freezer", "congelador", "frigorifico domestico"],
+    "criterio": "Equipo domestico de refrigeracion con combinacion de refrigerador y congelador.",
+    "advertencias": ["Freezers independientes, vitrinas refrigeradas o partes se clasifican en otras aperturas."],
+    "preguntas": ["Confirmar configuracion y cantidad de puertas."]
+  },
+  {
+    "ncm": "8516.50.00",
+    "descripcionOficial": "Hornos de microondas.",
+    "capitulo": "Capitulo 85 - Maquinas y aparatos electricos",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["microondas", "horno microondas", "horno electrico microondas"],
+    "criterio": "Aparato electrotecnico de uso domestico para coccion por microondas.",
+    "advertencias": ["Hornos electricos sin microondas o industriales requieren otra clasificacion."],
+    "preguntas": ["Confirmar uso domestico o industrial."]
+  },
+  {
+    "ncm": "6404.11.00",
+    "descripcionOficial": "Calzado de deporte, con suela de caucho o plastico y parte superior de materia textil.",
+    "capitulo": "Capitulo 64 - Calzado",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["zapatillas", "calzado deportivo", "sneakers", "suela goma", "parte superior textil", "running"],
+    "criterio": "Calzado deportivo clasificado por material de suela y parte superior.",
+    "advertencias": ["Calzado de cuero, seguridad o no deportivo puede clasificarse en otra partida."],
+    "preguntas": ["Confirmar material de capellada, suela y uso."]
+  },
+  {
+    "ncm": "9617.00.10",
+    "descripcionOficial": "Termos y demas recipientes isotermicos montados y aislados por vacio.",
+    "capitulo": "Capitulo 96",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["termo", "recipiente isotermico", "aislado por vacio", "acero inoxidable", "mate"],
+    "criterio": "Recipiente isotermico montado, aislado por vacio.",
+    "advertencias": ["Botellas comunes sin aislamiento por vacio pueden clasificarse distinto."],
+    "preguntas": ["Confirmar si posee doble pared y aislamiento por vacio."]
+  },
+  {
+    "ncm": "0901.21.00",
+    "descripcionOficial": "Cafe tostado, sin descafeinar.",
+    "capitulo": "Capitulo 09",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["cafe", "cafe tostado", "grano tostado", "molido", "sin descafeinar"],
+    "criterio": "Cafe tostado no descafeinado, por texto de partida 09.01.",
+    "advertencias": ["Cafe instantaneo o extractos se analizan en otra partida."],
+    "preguntas": ["Confirmar si es tostado, soluble o extracto."]
+  },
+  {
+    "ncm": "2204.21.00",
+    "descripcionOficial": "Vino de uvas frescas en recipientes con capacidad inferior o igual a 2 litros.",
+    "capitulo": "Capitulo 22",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["vino", "malbec", "botella", "750ml", "750 ml", "uvas", "tinto", "blanco"],
+    "criterio": "Vino de uvas frescas presentado en botella de capacidad menor o igual a 2 litros.",
+    "advertencias": ["Espumantes, mostos o envases mayores tienen aperturas distintas."],
+    "preguntas": ["Confirmar graduacion, tipo de vino y capacidad del envase."]
+  },
+  {
+    "ncm": "3923.30.00",
+    "descripcionOficial": "Bombonas, botellas, frascos y articulos similares de plastico.",
+    "capitulo": "Capitulo 39",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["botella plastica", "envase plastico", "frasco plastico", "pet", "bidon plastico"],
+    "criterio": "Envase plastico para transporte o envasado.",
+    "advertencias": ["Preformas, tapas y envases con contenido se clasifican segun corresponda."],
+    "preguntas": ["Confirmar si se importa vacio o con contenido."]
+  },
+  {
+    "ncm": "4011.10.00",
+    "descripcionOficial": "Neumaticos nuevos de caucho, de los tipos utilizados en automoviles de turismo.",
+    "capitulo": "Capitulo 40",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["neumatico", "cubierta", "llanta caucho", "auto", "automovil", "radial"],
+    "criterio": "Neumatico nuevo de caucho para automovil de turismo.",
+    "advertencias": ["Neumaticos para camiones, motos o maquinaria tienen subpartidas distintas."],
+    "preguntas": ["Confirmar medida y tipo de vehiculo."]
+  },
+  {
+    "ncm": "8421.23.00",
+    "descripcionOficial": "Aparatos para filtrar lubricantes o carburantes en motores de encendido por chispa o compresion.",
+    "capitulo": "Capitulo 84",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["filtro aceite", "filtro combustible", "filtro carburante", "motor", "auto", "camion"],
+    "criterio": "Filtro destinado a lubricantes o carburantes de motores.",
+    "advertencias": ["Filtros de aire u otros fluidos se clasifican en aperturas diferentes."],
+    "preguntas": ["Confirmar fluido filtrado y tipo de motor."]
+  },
+  {
+    "ncm": "8544.42.00",
+    "descripcionOficial": "Conductores electricos para tension inferior o igual a 1.000 V, provistos de piezas de conexion.",
+    "capitulo": "Capitulo 85",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["cable usb", "cable electrico", "conductor", "enchufe", "conector", "tension inferior 1000v"],
+    "criterio": "Conductor electrico con piezas de conexion.",
+    "advertencias": ["Cables de fibra optica o sin conectores pueden clasificarse distinto."],
+    "preguntas": ["Confirmar tension, conectores y material conductor."]
+  },
+  {
+    "ncm": "8507.60.00",
+    "descripcionOficial": "Acumuladores de iones de litio.",
+    "capitulo": "Capitulo 85",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["bateria litio", "ion litio", "acumulador litio", "power bank", "battery pack"],
+    "criterio": "Acumulador electrico de tecnologia ion-litio.",
+    "advertencias": ["Puede requerir regulaciones de transporte de mercancias peligrosas."],
+    "preguntas": ["Confirmar capacidad, tension y si forma parte de un equipo."]
+  },
+  {
+    "ncm": "9403.60.00",
+    "descripcionOficial": "Los demas muebles de madera.",
+    "capitulo": "Capitulo 94",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["mueble madera", "mesa madera", "placard", "ropero", "biblioteca madera", "escritorio madera"],
+    "criterio": "Mueble cuyo material predominante es madera.",
+    "advertencias": ["Asientos, muebles metalicos o partes se clasifican por aperturas especificas."],
+    "preguntas": ["Confirmar tipo de mueble y material predominante."]
+  },
+  {
+    "ncm": "9401.30.00",
+    "descripcionOficial": "Asientos giratorios de altura ajustable.",
+    "capitulo": "Capitulo 94",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["silla oficina", "sillon oficina", "asiento giratorio", "altura ajustable", "ruedas"],
+    "criterio": "Asiento giratorio de altura ajustable.",
+    "advertencias": ["Sillas no giratorias o para vehiculos se clasifican distinto."],
+    "preguntas": ["Confirmar si posee giro y regulacion de altura."]
+  },
+  {
+    "ncm": "3304.99.10",
+    "descripcionOficial": "Preparaciones de belleza, maquillaje y cuidado de la piel. Cremas de belleza.",
+    "capitulo": "Capitulo 33",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["crema facial", "cosmetico", "maquillaje", "cuidado piel", "beauty cream", "hidratante"],
+    "criterio": "Preparacion cosmetica para cuidado de la piel.",
+    "advertencias": ["Productos medicinales o dermatologicos terapeuticos pueden requerir analisis del capitulo 30."],
+    "preguntas": ["Confirmar composicion y si declara finalidad terapeutica."]
+  },
+  {
+    "ncm": "3004.90.99",
+    "descripcionOficial": "Medicamentos constituidos por productos mezclados o sin mezclar, preparados para usos terapeuticos o profilacticos, dosificados o acondicionados para la venta al por menor. Los demas.",
+    "capitulo": "Capitulo 30",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["medicamento", "comprimidos", "capsulas", "jarabe", "uso terapeutico", "farmaceutico"],
+    "criterio": "Producto presentado dosificado para uso terapeutico o profilactico.",
+    "advertencias": ["Requiere analisis sanitario y de principios activos; la apertura exacta depende de composicion."],
+    "preguntas": ["Indicar principio activo, dosis, forma farmaceutica y registro sanitario."]
+  },
+  {
+    "ncm": "1905.31.00",
+    "descripcionOficial": "Galletas dulces.",
+    "capitulo": "Capitulo 19",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["galletitas", "galletas dulces", "cookies", "bizcochos dulces", "snack dulce"],
+    "criterio": "Producto de panaderia fina o galleta dulce.",
+    "advertencias": ["Rellenos, cobertura o preparaciones especiales pueden requerir validacion."],
+    "preguntas": ["Confirmar ingredientes, relleno y presentacion."]
+  },
+  {
+    "ncm": "1006.30.21",
+    "descripcionOficial": "Arroz semiblanqueado o blanqueado, incluso pulido o glaseado.",
+    "capitulo": "Capitulo 10",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["arroz", "arroz blanco", "grano largo", "pulido", "blanqueado"],
+    "criterio": "Cereal arroz en presentacion blanqueada o pulida.",
+    "advertencias": ["Arroz con cascara, partido o parbolizado puede modificar la apertura."],
+    "preguntas": ["Confirmar si es con cascara, cargo, partido o blanqueado."]
+  },
+  {
+    "ncm": "0201.30.00",
+    "descripcionOficial": "Carne de animales de la especie bovina, fresca o refrigerada, deshuesada.",
+    "capitulo": "Capitulo 02",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["carne bovina", "carne vacuna", "refrigerada", "deshuesada", "bife", "lomo"],
+    "criterio": "Carne bovina fresca o refrigerada deshuesada.",
+    "advertencias": ["Congelada, con hueso o procesada cambia la clasificacion."],
+    "preguntas": ["Confirmar estado termico y si posee hueso."]
+  }
+]

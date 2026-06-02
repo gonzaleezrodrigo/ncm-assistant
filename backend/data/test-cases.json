@@ -1,0 +1,27 @@
+[
+  {
+    "input": "Yerba mate molida 500g",
+    "matchPhrases": ["yerba mate molida", "yerba mate", "500g", "500 g"],
+    "ncm": "0903.00.90"
+  },
+  {
+    "input": "Aceite de soja refinado 20L",
+    "matchPhrases": ["aceite de soja refinado", "aceite soja refinado", "20l", "20 litros"],
+    "ncm": "1507.90.11"
+  },
+  {
+    "input": "Cuero wet-blue vacuno",
+    "matchPhrases": ["cuero wet-blue", "wet blue vacuno", "cuero vacuno curtido", "curtido al cromo"],
+    "ncm": "4104.11.10"
+  },
+  {
+    "input": "Software contable en pendrive",
+    "matchPhrases": ["software contable en pendrive", "software en pendrive", "programa contable usb", "pendrive con software"],
+    "ncm": "8523.51.90"
+  },
+  {
+    "input": "Cosechadora usada 2018",
+    "matchPhrases": ["cosechadora usada", "cosechadora 2018", "maquina cosechadora", "cosechadora trilladora"],
+    "ncm": "8433.51.00"
+  }
+]
