@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: ncm-assistant
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: OPENROUTER_MODEL
+        value: openrouter/free
+      - key: OPENROUTER_SITE_URL
+        value: https://ncm-assistant.onrender.com
+      - key: OPENROUTER_APP_NAME
+        value: Asistente NCM
+      - key: OPENROUTER_API_KEY
+        sync: false
+

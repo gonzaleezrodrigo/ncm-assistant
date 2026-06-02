@@ -1,0 +1,20 @@
+{
+  "name": "ncm-assistant",
+  "version": "1.0.0",
+  "description": "Asistente de clasificacion arancelaria NCM con busqueda local e IA opcional.",
+  "main": "backend/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "ncm",
+    "comercio-exterior",
+    "clasificacion-arancelaria"
+  ],
+  "author": "SASO 1C26",
+  "license": "MIT"
+}
