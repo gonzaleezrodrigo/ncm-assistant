@@ -9,7 +9,9 @@ const FRONTEND_DIR = path.join(ROOT, "frontend");
 const DATA_DIR = path.join(__dirname, "data");
 const PORT = Number(process.env.PORT || 3000);
 
-const ncmDb = readJson(path.join(DATA_DIR, "ncm-db.json"));
+const manualNcmDb = readJson(path.join(DATA_DIR, "ncm-db.json"));
+const officialNcmDb = readOptionalJson(path.join(DATA_DIR, "official-ncm-db.json"), []);
+const ncmDb = mergeNcmDatabases(manualNcmDb, officialNcmDb);
 const testCases = readJson(path.join(DATA_DIR, "test-cases.json"));
 const searchIndex = buildSearchIndex(ncmDb);
 
@@ -48,6 +50,8 @@ const server = http.createServer(async (req, res) => {
       sendJson(res, 200, {
         ok: true,
         localItems: ncmDb.length,
+        manualItems: manualNcmDb.length,
+        officialItems: officialNcmDb.length,
         aiEnabled: Boolean(process.env.OPENROUTER_API_KEY || process.env.OPENAI_API_KEY || process.env.GEMINI_API_KEY),
         aiProvider: getAiProviderName()
       });
@@ -97,6 +101,22 @@ server.listen(PORT, () => {
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function readOptionalJson(filePath, fallback) {
+  if (!fs.existsSync(filePath)) return fallback;
+  return readJson(filePath);
+}
+
+function mergeNcmDatabases(primary, secondary) {
+  const seen = new Set();
+  const merged = [];
+  for (const item of [...primary, ...secondary]) {
+    if (!item?.ncm || seen.has(item.ncm)) continue;
+    seen.add(item.ncm);
+    merged.push(item);
+  }
+  return merged;
 }
 
 function loadEnv(filePath) {
@@ -193,7 +213,7 @@ async function classifyProduct(product) {
     }
   }
 
-  if (local.best && local.best.score >= 25) {
+  if (local.best && local.best.score >= 45 && local.best.reasons.length >= 2) {
     return formatLocalResult(local.best.item, product, local.best.score, "base_local_revision", local.candidates, {
       confidence: "media",
       legalWarning: [
@@ -279,6 +299,10 @@ function searchLocal(normalizedText) {
 
       if (entry.normalizedDescription.includes(normalizedText) && normalizedText.length > 5) {
         score += 20;
+      }
+
+      if (score > 0 && entry.item.source !== "nomenclador_pdf_2017") {
+        score += 12;
       }
 
       const cappedScore = Math.min(100, score);
