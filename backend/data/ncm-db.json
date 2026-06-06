@@ -320,6 +320,26 @@
     "preguntas": ["Confirmar capacidad, tension y si forma parte de un equipo."]
   },
   {
+    "ncm": "8481.80.00",
+    "descripcionOficial": "Articulos de griferia y organos similares para tuberias, calderas, depositos, cubas o continentes similares. Los demas.",
+    "capitulo": "Capitulo 84",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["valvula", "valvulas", "valvula acero", "valvula tuberia", "valvula para tuberias", "grifo", "canilla", "llave de paso", "esfera", "retencion", "industrial"],
+    "criterio": "Las valvulas y articulos similares para tuberias se clasifican en la partida 84.81, atendiendo a su funcion como organo de control de flujo.",
+    "advertencias": ["Si se trata solo de un accesorio de tuberia sin mecanismo de valvula, puede corresponder la partida 73.07 u otra segun material."],
+    "preguntas": ["Confirmar si posee mecanismo de apertura/cierre o regulacion de flujo, material y uso."]
+  },
+  {
+    "ncm": "9031.80.99",
+    "descripcionOficial": "Instrumentos, aparatos y maquinas de medida o control, no expresados ni comprendidos en otra parte. Los demas.",
+    "capitulo": "Capitulo 90",
+    "rgi": ["RGI 1", "RGI 6"],
+    "keywords": ["equipo de medicion", "medicion laser", "alineacion de ejes", "instrumento de control", "aparato de medida", "laser industrial", "metrologia", "sensor industrial"],
+    "criterio": "Cuando el equipo se presenta como instrumento de medicion o control industrial no especificado en otra partida, puede orientarse a la partida 90.31.",
+    "advertencias": ["La posicion exacta depende de la funcion tecnica, si mide dimensiones, nivel, presion, variables electricas u otra magnitud especifica."],
+    "preguntas": ["Confirmar magnitud medida, principio de funcionamiento, ficha tecnica y si registra/controla procesos."]
+  },
+  {
     "ncm": "9403.60.00",
     "descripcionOficial": "Los demas muebles de madera.",
     "capitulo": "Capitulo 94",
